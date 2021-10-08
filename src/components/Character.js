@@ -41,7 +41,7 @@ const kf = keyframes`
 
 const TitleStyle = styled.h1`
 font-family: 'Bebas Neue', cursive;
-border: 2px dashed white;
+border: 2px solid white;
 width: 40%;
 font-size: 4em;
 margin-left: 30%;
@@ -80,7 +80,6 @@ export default function Character({info}){
             <TitleStyle onClick={() => setVisible(!visible)}>
                 {info.name}
                 {visible ? '' : ''}          
-
             </TitleStyle>
             <InfoStyle>
             {visible && <div>
