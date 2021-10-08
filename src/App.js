@@ -24,7 +24,8 @@ const App = () => {
     .catch(err =>{
       console.error(err)
     })
-  }, [])
+  }, []
+  );
 
 
 
@@ -32,8 +33,8 @@ const App = () => {
     <div className="App">
 
       <h1 className="Header">Star Wars Characters</h1>
-      {character.map(character => {
-        return <Character key = {character.id} info = {character}/>
+      {character.map(info => {
+        return <Character key = {info.id} info = {info}/>
       })
       }
 
