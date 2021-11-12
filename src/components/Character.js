@@ -47,9 +47,7 @@ font-size: 4em;
 margin-left: 30%;
 text-align: center;
 color: white;
-&: hover {
-    animation: ${kf} 1s infinite;
-    }
+
 `
 
 const BigStyle = styled.div`
@@ -63,9 +61,7 @@ const InfoStyle = styled.div`
     margin-left: 40%;
     color: white;
 
-    &: hover {
-    animation: ${kf2} 1s infinite;
-    }
+
 `
 
 
